@@ -1,4 +1,23 @@
 .logo-small{
+    width : 80px;
+    height: 80px;
     font-size : 50px;
     color : gray;
+}
+
+.logo-small:hover{
+    font-size : 60px;
+    color : coral;
+}
+
+
+@media(max-width:768px){
+    .nav-item{
+        border-top : 1px solid gray;
+    }
+}
+@media (max-width:480px){
+    .carousel{
+        display:none;
+    }
 }

@@ -10,6 +10,12 @@
     color : coral;
 }
 
+.contact{
+    padding:20px;
+}
+.contact-form{
+    padding:20px;
+}
 
 @media(max-width:768px){
     .nav-item{
